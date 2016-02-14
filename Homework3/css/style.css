@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #f9f9f9;
+    font-family: sans-serif; 
+}
+.page {
+    margin-left: 154px;
+    padding: 0px 45px 0px 45px;
+    width: 970px;
+    height: 950px;
+    background-color: #fff;	
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+.header {
+    padding-top: 50px;
+    background-color: white;
+}
+.logo {
+    margin-bottom: 40px;
+    width: 143px;
+    height: 40px;
+    background-image: url("../img/logo.png");
+}
+.menu_nav {
+    background: linear-gradient(to bottom,#5e5e5e, #444444);
+}
+.menu_nav li {
+    display: inline-block;
+    height: 40px;
+}
+.menu_nav a {
+    display: block;
+    padding: 10px 40px;
+    color: white;
+    font-size: 15px;
+}
+.menu_nav li:hover {
+    background: linear-gradient(to bottom,#4a4a4a, #2f2f2f);
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 600px;
+}
+.sidebar_nav {
+    width: 240px;
+    margin-top: 40px;
+}
+.sidebar_nav a {
+    margin-bottom: -1px;
+    padding: 12px 22px;
+    display: block;
+    border: 1px solid lightgray;
+    color: gray;
+    font-size: 14px;
+}
+.sidebar_nav a:hover {
+    padding-left: 32px;
+    background-color: #f9f9f9;
+}
+.content {
+    float: right;
+    width: 70%;
+    height: 600px;
+}
+.bike {
+    margin-top: 40px;
+    width: 678px;
+    height: 400px;
+    background-image: url("../img/bike.jpg");
+    background-size: 100% 100%;
+}
+div p {
+    margin: 37px 0 0 23px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.main::after{
+content:'';
+display:table;
+clear:both;
+}
+.footer {
+    margin-top: 75px;
+    height: 40px;
+    background-color: #e1e1e1;
+}
+.footer_nav {
+    font-size: 14px;
+}
+.footer_nav li {
+    padding: 12px 40px 0px 40px;
+    display: inline-block;
+}
+.footer_nav li:last-of-type {
+    margin-left: 220px;
+    padding: 12px 20px 0px 20px;
+}
+.footer_nav a{
+    display: block;
+}
+.footer_nav a:hover {
+    text-decoration: underline;
+}

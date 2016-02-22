@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #eee;
+}
+.table {
+    margin: 35px auto 0 auto;
+    width: 768px;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 768px;
+    height: 600px;
+    background-color: #fff;
+}
+td {
+    border: 2px solid black;
+}
+.yellow{
+    background-color: rgb(255,233,92);
+}
+.red {
+    background-color: rgb(255,87,59);
+}
+.black {
+    background-color: rgb(19,18,18);
+}
+.blue {
+    background-color: rgb(8,62,120);
+}
+.dark {
+    background-color: black;
+}
